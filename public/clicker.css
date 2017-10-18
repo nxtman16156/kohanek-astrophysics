@@ -1,0 +1,20 @@
+body {
+    background-color: #131a26;
+}
+
+.my_button {
+    margin-top: 20vh;
+    border: 6px solid #233044;
+    border-radius: 50%;
+    background-color: #48618c;
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#play {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}

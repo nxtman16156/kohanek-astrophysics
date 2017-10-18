@@ -1,0 +1,73 @@
+body {
+    padding-bottom: 20vh;
+    color: white;
+    background-color: #131a26;
+}
+
+.container {
+    padding-top: 10vh;
+    margin-top: 20vh;
+    background-color: #233044;
+    border-radius: 10px;
+}
+
+#anchor {
+    text-align: center;
+    height: 30vh;
+}
+
+#book_title {
+    font-size: 9vh;
+}
+
+#book_author {
+    font-size: 3vh;
+}
+
+#slide1 {
+    padding-top: 1vh;
+    border-radius: 5px;
+    height: 35vh;
+    background-color: #48618c;
+}
+
+.slide {
+    padding-top: 1vh;
+    border-radius: 5px;
+    margin-top: 10vh;
+    height: 85vh;
+    background-color: #48618c;
+}
+
+#root {
+    padding-top: 20vh;
+    height: 80vh;
+}
+
+#thanks {
+    font-size: 15vh;
+    text-align: center;
+}
+
+#button_scroll {
+    position: fixed;
+    left: 2px;
+    bottom: 2px;
+}
+
+.title {
+    text-align: center;
+    font-size: 3.5vw;
+}
+
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 65vh;
+}
+
+.book {
+    width: 30%;
+}

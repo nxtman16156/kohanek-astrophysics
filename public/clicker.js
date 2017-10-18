@@ -11,4 +11,8 @@ window.onload = function() {
     $(".my_button").click(function() {
         socket.emit ("advance");
     });
+    
+    $("#back").click(function() {
+        socket.emit ("back");
+    });
 };

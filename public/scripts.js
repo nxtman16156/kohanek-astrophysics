@@ -11,12 +11,23 @@ window.onload = function() {
         if (currentSlide < 10) currentSlide++;
         else currentSlide = 1;
         
-        $("html, body").animate ({
-            scrollTop: $("#scroll" + currentSlide).offset().top
-        }, 1500);
+        scroll();
+    });
+    
+    socket.on ("back", function() {
+        if (currentSlide > 1) currentSlide--;
+        else currentSlide = 10;
+        
+        scroll ();
     });
     
     socket.on ("play", function() {
-        alert ("At this moment, the song should start playing");
+        $("#audio").trigger("play");
     });
 };
+
+function scroll() {
+    $("html, body").animate ({
+        scrollTop: $("#scroll" + currentSlide).offset().top
+    }, 1500);
+}

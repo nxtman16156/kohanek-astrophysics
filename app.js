@@ -36,6 +36,10 @@ io.sockets.on ('connection', function (socket) {
         emitAll("play");
     });
     
+    socket.on ('back', function() {
+        emitAll("back");
+    });
+    
 });
 
 function emitAll (command) {

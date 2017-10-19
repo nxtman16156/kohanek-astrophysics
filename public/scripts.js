@@ -8,7 +8,7 @@ window.onload = function() {
     socket.emit ("connection_main");
     
     socket.on ("advance", function() {
-        if (currentSlide < 10) currentSlide++;
+        if (currentSlide < 14) currentSlide++;
         else currentSlide = 1;
         
         scroll();
@@ -16,7 +16,7 @@ window.onload = function() {
     
     socket.on ("back", function() {
         if (currentSlide > 1) currentSlide--;
-        else currentSlide = 10;
+        else currentSlide = 13;
         
         scroll ();
     });

@@ -71,3 +71,13 @@ body {
 .book {
     width: 30%;
 }
+
+.quote {
+    margin-top: 12vh;
+    text-align: center;
+    font-size: 4vw;
+}
+
+#code {
+    text-align: center;
+}
